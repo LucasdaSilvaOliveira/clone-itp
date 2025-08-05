@@ -83,3 +83,36 @@
     background-color: #15227B;
     color: white;
 }
+
+/* DIV PURCHASE PROCCESS */
+
+#div-purchase-proccess {
+    margin-bottom: 50px;
+}
+
+#purchase-top {
+    color:white;
+    background-color: #15227B;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#purchase-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#purchase-content section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#purchase-content section h1 {
+    color: #15227B;
+    font-size: 32px;
+}
