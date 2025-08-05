@@ -160,3 +160,27 @@
     width: 100%;
     height: 400px;
 }
+
+/* DIV WALLET */
+
+#div-wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wallet-content {
+    width: 50%;
+}
+
+#wallet-content h1 {
+    color: #15227B;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#wallet-content li {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
