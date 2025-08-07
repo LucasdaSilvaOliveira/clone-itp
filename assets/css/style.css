@@ -4,6 +4,12 @@
     font-family: Poppins;
 }
 
+#container {
+    max-width: 2000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 #header-top {
     background-color: #15227B;
     display: flex;
@@ -165,6 +171,7 @@
 
 #div-wallet {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }

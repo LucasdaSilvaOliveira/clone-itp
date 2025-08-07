@@ -1,0 +1,159 @@
+@media (max-width:1100px) {
+    #purchase-content section {
+        width: 100%;
+    }
+
+    #div-cell {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    #div-img-cell {
+        width: 80%;
+    }
+
+    #cell-content {
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    #wallet-content {
+        width: 100%;
+    }
+
+    #wallet-content h1 {
+        text-align: center;
+    }
+
+    #wallet-content li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:850px) {
+
+    /* HEADER */
+    #header-content section h1 {
+        font-size: 30px;
+    }
+
+    #header-content section p {
+        font-size: 18px;
+    }
+
+    #header-content button {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width:730px) {
+    #footer-content {
+        gap: 10px;
+    }
+
+    #footer-content button {
+        font-size: 16px;
+    }
+
+    #footer-content img:nth-child(2) {
+        width: 150px;
+    }
+
+    #footer-content img:nth-child(3) {
+        width: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    #purchase-content section img {
+        width: 100%;
+    }
+
+    #purchase-content section p {
+        text-align: center;
+    }
+
+    #div-cell {
+        padding: 40px 10px;
+    }
+
+    #cell-content h1 {
+        font-size: 24px;
+    }
+
+    #cell-content p,
+    #cell-content li {
+        font-size: 14px;
+    }
+
+    #div-wallet>div img {
+        width: 100%;
+    }
+
+    #div-wallet>div {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    #header-content section h1 {
+        font-size: 25px;
+    }
+
+    #header-content button {
+        font-size: 14px;
+        width: 45%;
+    }
+
+    #purchase-top h1 {
+        font-size: 25px;
+    }
+
+    #purchase-content {
+        gap: 50px;
+    }
+
+    #purchase-content section h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width:400px) {
+    #footer-content button {
+        font-size: 12px !important;
+    }
+
+    #footer-content img:nth-child(2) {
+        width: 100px !important;
+    }
+
+    #footer-content img:nth-child(3) {
+        width: 30px !important;
+    }
+}
+
+@media (max-width:350px) {
+    #header-content button {
+        font-size: 12px;
+    }
+
+    #purchase-top h1 {
+        font-size: 20px;
+    }
+
+    #purchase-content section p {
+        font-size: 14px;
+    }
+
+    #wallet-content li {
+        font-size: 14px;
+    }
+
+    #div-icons i {
+        font-size: 24px;
+    }
+}
