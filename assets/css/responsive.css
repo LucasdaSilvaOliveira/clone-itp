@@ -99,6 +99,14 @@
 }
 
 @media (max-width:500px) {
+    #header-content section {
+        padding: 0px 15px;
+    }
+
+    #purchase-content {
+        padding: 0px 15px;
+    }
+
     #header-content section h1 {
         font-size: 25px;
     }
@@ -123,6 +131,7 @@
 }
 
 @media (max-width:400px) {
+
     #footer-content button {
         font-size: 12px !important;
     }
@@ -137,6 +146,15 @@
 }
 
 @media (max-width:350px) {
+
+    #header-content section h1 {
+        font-size: 20px;
+    }
+
+    #header-content section p {
+        font-size: 16px;
+    }
+
     #header-content button {
         font-size: 12px;
     }
